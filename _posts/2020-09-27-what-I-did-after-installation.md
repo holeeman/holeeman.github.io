@@ -3,7 +3,7 @@ title: "윈도우 설치 후 내가 한것들"
 summary: WSL 설치 방법에 대해서 자세히 다룬다.
 author: Hosung Lee
 date: 2020-9-27 01:31:00 +0900
-categories: WSL Windows
+tags: WSL Windows
 ---
 
 윈도우를 설치 후 내가 세팅한 것에 대해서 설명한다.

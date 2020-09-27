@@ -3,7 +3,7 @@ title: "WSL 설치 방법"
 summary: WSL 설치 방법에 대해서 자세히 다룬다.
 author: Hosung Lee
 date: 2020-9-27 01:15:00 +0900
-categories: WSL Windows
+tags: WSL Windows
 ---
 
 WSL2를 설치하는 방법에 대하여 알아보자. 
