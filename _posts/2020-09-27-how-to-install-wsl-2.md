@@ -72,3 +72,9 @@ wsl --set-default-version 2
 
 [update]: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 [msstore]:https://aka.ms/wslstore
+
+### Extra - GUI 사용하기
+
+wsl에서 GUI를 띄우고 싶다면, 다음의 링크를 참조하자
+
+[WSL 2에서 리눅스 GUI 프로그램 실행](https://holeeman.github.io/WSL-2에서-리눅스-GUI-프로그램-실행)
