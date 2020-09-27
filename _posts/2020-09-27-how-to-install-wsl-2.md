@@ -77,4 +77,4 @@ wsl --set-default-version 2
 
 wsl에서 GUI를 띄우고 싶다면, 다음의 링크를 참조하자
 
-[WSL 2에서 리눅스 GUI 프로그램 실행](https://holeeman.github.io/WSL-2에서-리눅스-GUI-프로그램-실행)
+[WSL 2에서 리눅스 GUI 프로그램 실행](https://holeeman.github.io/windows/WSL-2%EC%97%90%EC%84%9C-%EB%A6%AC%EB%88%85%EC%8A%A4-GUI-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89/)
