@@ -9,5 +9,7 @@ author_profile: true
 UF class of 2021 (GPA 3.75/4.00)
 
 ### Career
-- Cheif Technical Officer (CTO) of Sportlight (Jan 2020 - current)
-- Developed Nutrition Suggestion App for TEI Korea (Jan 2020 - March 2020)
+- Cheif Technical Officer (CTO) of Sportlight
+    - Jan 2020 - current
+- Developed Nutrition Suggestion App for TEI Korea 
+    - Jan 2020 - March 2020
