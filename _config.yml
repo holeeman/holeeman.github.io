@@ -96,7 +96,7 @@ author:
   name             : "Hosung Lee"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "UF 2021. Interested in MERN, RN, DL, and etc."
-  location         : "Somewhere"
+  # location         : "Somewhere"
   email            : "runway3237@gmail.com"
   links:
     - label: "Email"
