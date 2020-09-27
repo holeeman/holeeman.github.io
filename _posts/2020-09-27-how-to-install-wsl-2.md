@@ -1,3 +1,8 @@
+---
+title: "Welcome to Jekyll!"
+date: 2020-9-27 01:15:00 +0900
+categories: WSL Windows
+---
 # WSL2 설치 방법
 
 WSL2를 설치하는 방법에 대하여 알아보자. 
