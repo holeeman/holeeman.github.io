@@ -1,14 +1,15 @@
 ---
-title: "Welcome to Jekyll!"
+layout: single
+title: "WSL 설치 방법"
+summary: WSL 설치 방법에 대해서 자세히 다룬다.
+author: Hosung Lee
 date: 2020-9-27 01:15:00 +0900
 categories: WSL Windows
 ---
 
 WSL2를 설치하는 방법에 대하여 알아보자. 
 
-다음 링크의 "Windows Subsystem for Linux Installation Guide for Windows 10" 문서를 참조하였다.
-
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+[다음 링크]의 "Windows Subsystem for Linux Installation Guide for Windows 10" 문서를 참조하였다.
 
 ### 1. Step 1 - 윈도우 리눅스 서브시스템 활성화
 
@@ -48,8 +49,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 ### 4. Step 4 - 리눅스 커널 업데이트 패키지 다운 받기
 
-1. 최신 버전의 패키지를 다운 받는다:
-   * https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+1. [최신 버전]의 패키지를 다운 받는다:
    * 만약 ARM64 시스템이라면 위 링크가 아닌 ARM64 패키지를 따로 받아야한다.
 2. 다운을 받은 후 설치해서 실행하자.
 
@@ -62,3 +62,7 @@ wsl --set-default-version 2
 ### Step 6 - Linux 배포판 설치하기
 
 [Microsoft 스토어](https://aka.ms/wslstore) 에서 원하는 배포판을 다운 받아 설치하면 된다.
+
+[다음 링크]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+[최신 버전]: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi

@@ -1,6 +1,9 @@
 ---
+layout: single
 title: "윈도우 설치 후 내가 한것들"
-date: 2020-9-27 01:22:00 +0900
+summary: WSL 설치 방법에 대해서 자세히 다룬다.
+author: Hosung Lee
+date: 2020-9-27 01:31:00 +0900
 categories: WSL Windows
 ---
 
