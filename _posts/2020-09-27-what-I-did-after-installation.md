@@ -50,6 +50,8 @@ Pycharm: https://www.jetbrains.com/ko-kr/pycharm/download/#section=windows
 
 VMware Workstation Pro: https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 
+루비: https://rubyinstaller.org/downloads/
+
 
 
 ### 3. WSL 2 설치
