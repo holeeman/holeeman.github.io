@@ -9,7 +9,7 @@ categories: WSL Windows
 
 WSL2를 설치하는 방법에 대하여 알아보자. 
 
-[다음 링크]의 "Windows Subsystem for Linux Installation Guide for Windows 10" 문서를 참조하였다.
+[다음 링크][wsl]의 "Windows Subsystem for Linux Installation Guide for Windows 10" 문서를 참조하였다.
 
 ### 1. Step 1 - 윈도우 리눅스 서브시스템 활성화
 
@@ -17,9 +17,11 @@ WSL은 Windows Subsystem for Linux의 약자로, 윈도우 10 안에서 리눅�
 
 PowerShell을 관리자 권한으로 실행시키고 다음의 명령줄을 실행한다:
 
-```PowerShell
+{% highlight powershell %}
+
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-```
+
+{% endhighlight %}
 
 만약 WSL 1만 설치하기를 원한다면 여기서 재부팅 후 Step 6로 가면 된다.
 
@@ -41,28 +43,33 @@ WSL 2를 설치하기 전에, 먼저 **가상 머신 플랫폼** 기능을 활�
 
 PowerShell을 관리자 권한으로 실행시키고 다음의 명령줄을 실행한다:
 
-```PowerShell
+{% highlight powershell %}
+
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
+
+{% endhighlight %}
 
 컴퓨터를 **재부팅** 하여 WSL 설치와 WSL 2 업그레이드를 완료 한다.
 
 ### 4. Step 4 - 리눅스 커널 업데이트 패키지 다운 받기
 
-1. [최신 버전]의 패키지를 다운 받는다:
+1. [최신 버전][update]의 패키지를 다운 받는다:
    * 만약 ARM64 시스템이라면 위 링크가 아닌 ARM64 패키지를 따로 받아야한다.
 2. 다운을 받은 후 설치해서 실행하자.
 
 ### Step 5 - WSL 2를 기본 버전으로 설정하기
 
-```PowerShell
+{% highlight powershell %}
+
 wsl --set-default-version 2
-```
+
+{% endhighlight %}
 
 ### Step 6 - Linux 배포판 설치하기
 
-[Microsoft 스토어](https://aka.ms/wslstore) 에서 원하는 배포판을 다운 받아 설치하면 된다.
+[Microsoft 스토어][msstore] 에서 원하는 배포판을 다운 받아 설치하면 된다.
 
-[다음 링크]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+[wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-[최신 버전]: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+[update]: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+[msstore]:https://aka.ms/wslstore
