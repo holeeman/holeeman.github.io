@@ -27,37 +27,30 @@ https://www.3dpchip.com/3dp/chip_down_kor.php
 
 ---
 
-카카오톡: https://www.kakaocorp.com/service/KakaoTalk
+- [카카오톡](https://www.kakaocorp.com/service/KakaoTalk)
+- [스팀](https://store.steampowered.com/about/)
+  - Wallpaper Engine: 동적인 배경화면을 사용할 수 있게 해준다 (유료).
 
-스팀: https://store.steampowered.com/about/
+- [Adobe PDF 뷰어](https://get.adobe.com/kr/reader/)
+- [Git 윈도우](https://git-scm.com/download/win)
+- [Github Desktop](https://desktop.github.com/)
+- [Typora](https://typora.io/)
+- [node js](https://nodejs.org/ko/)
 
-- Wallpaper Engine: 동적인 배경화면을 사용할 수 있게 해준다 (유료).
+  - automatically install necessary tools 체크
 
-Adobe PDF 뷰어: https://get.adobe.com/kr/reader/
+- [Python2.7](https://www.python.org/downloads/release/python-2718/)
 
-Git 윈도우: https://git-scm.com/download/win
+- Python3.x은 node js와 같이 설치되기 때문에 mklink로 python3.exe 생성
 
-Github Desktop: https://desktop.github.com/
+- Java JDK와 런타임: 로컬설치
 
-Typora: https://typora.io/
+- [Intellij](https://www.jetbrains.com/ko-kr/idea/download/#section=windows)
+- [Pycharm](https://www.jetbrains.com/ko-kr/pycharm/download/#section=windows)
 
-node js: https://nodejs.org/ko/
+- [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
 
-- automatically install necessary tools 체크
-
-Python2.7: https://www.python.org/downloads/release/python-2718/
-
-Python3.x은 node js와 같이 설치되기 때문에 mklink로 python3.exe 생성
-
-Java JDK와 런타임: 로컬설치
-
-Intellij: https://www.jetbrains.com/ko-kr/idea/download/#section=windows
-
-Pycharm: https://www.jetbrains.com/ko-kr/pycharm/download/#section=windows
-
-VMware Workstation Pro: https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
-
-루비: https://rubyinstaller.org/downloads/
+- [루비](https://rubyinstaller.org/downloads/)
 
 
 
@@ -65,8 +58,6 @@ VMware Workstation Pro: https://www.vmware.com/products/workstation-pro/workstat
 
 ---
 
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+[공식 문서의](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 지시대로 WSL 2까지 설치하면 된다.
 
-위 링크의 지시대로 WSL 2까지 설치하면 된다.
-
-자세한 내용은 다음 포스팅 참조.
+자세한 내용은 [다음 포스팅](https://holeeman.github.io/wsl/windows/how-to-install-wsl-2/) 참조.
