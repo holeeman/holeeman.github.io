@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "WSL2 설치 방법"
 date: 2020-9-27 01:15:00 +0900
 categories: WSL Windows
 ---
